@@ -20,6 +20,7 @@
             <div class="collapse navbar-collapse" id='nav'>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="/signup" class="nav-link">Signup</a></li>
                     <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
                 </ul>
@@ -27,8 +28,8 @@
         </div>
     </nav>
 </div>
-
-<div class="container-fluid px-0 mt-2 pt-3 mt-5">
+<div class="prevent-navbar-overlap pt-4 mt-5"></div>
+<div class="container-fluid px-0 ">
     <div class="row">
         @section('sidebar')
         <div class="col-lg-3 text-center">
@@ -58,11 +59,11 @@
     </div>
 </div>
 
-<div class="container-fluid px-0 py-3 bg-dark" style="margin-top:40vh">
+<div class="container-fluid px-0 py-3 bg-dark" style="margin-top:25vh">
     <div class="container">
         <div class="row ">
             <div class="col-lg-4 text-center text-light h5">
-                This is footer this is footer this is footer this is footer
+                This is footer this is footer this is footer this is footer this is footer this is footer this is footer this footer
             </div>
             <div class="col-lg-4 text-center text-light h5">
                 <h3>About us .</h3>
